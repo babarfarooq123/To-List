@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">TO DO LIST</h1>
+    <div style="display: flex;direction: columns ;">
+        <div style="margin: 0 auto;background-color: aqua;max-width: 100%;min-width: 400px;">
+            <input class="addText" type="text" placeholder="Add To Do">
+            <div class="mainaddDel">
+                <div class="addDel">
+                    <div class="addList">
+                        <button class="addBtn" onclick="addToList()">Add to List</button>
+                    </div>
+                    <div class="delList">
+                        <button class="delBtn" onclick="deleteList()">Delete All</button>
+                    </div>
+                </div>
+            </div>
+
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
